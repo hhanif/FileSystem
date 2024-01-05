@@ -1,12 +1,12 @@
 # FileSystem
 This is a in-memory filesystem built in JavaScript.
 
-Please note: There are two files in this repository, one is the main file_system.js file which is my official submission.
-There is a second file called file_system_extended which includes my attempts at the other extension options (Copying files/directories, supporting reading and writing file contents as a stream of bytes, and walking through all the recursive contents of a directory). I did not include these extensions in my official submission as I did not have enough time to thoroughly test these functions but still wanted to display my efforts at attempting them.
+Please note: There are two files in this repository, one is the main FileSystem.js file which is my official submission.
+There is a second file called FileSystem_extended which includes my attempts at the other extension options (Copying files/directories, supporting reading and writing file contents as a stream of bytes, and walking through all the recursive contents of a directory). I did not include these extensions in my official submission as I did not have enough time to thoroughly test these functions but still wanted to display my efforts at attempting them.
 
 
 To run this program, please first install node, then use the following command:
-node file_system.js
+node FileSystem.js
 
 Running the command will start a shell-like program with a command line interface where you can run the following commands:
 cd - change directory
