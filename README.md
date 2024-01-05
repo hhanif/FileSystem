@@ -1,10 +1,14 @@
 # FileSystem
 This is a in-memory filesystem built in JavaScript.
 
+Please note: There are two files in this repository, one is the main file_system.js file which is my official submission.
+There is a second file called file_system_extended which includes my attempts at the other extension options (Copying files/directories, supporting reading and writing file contents as a stream of bytes, and walking through all the recursive contents of a directory). I did not include these extensions in my official submission as I did not have enough time to thoroughly test these functions but still wanted to display my efforts at attempting them.
+
+
 To run this program, please first install node, then use the following command:
 node file_system.js
 
-This will start a shell-like program with a command line interface where you can run the following commands:
+Running the command will start a shell-like program with a command line interface where you can run the following commands:
 cd - change directory
 pwd - show current directory
 touch file.txt - creates text file called file.txt
@@ -12,12 +16,12 @@ mkdir test - creates directory/folder called test
 ls - displays current directories content
 
 rm - removes files or empty directory
-rm non_empty_directory -r - to delete a non-empty directory, NOTE: use -r at the end
+rm non_empty_directory -r - NOTE: to delete a non-empty directory, please use -r at the end
 
 echo file_name "content" - adds content to file
 cat file_name - displays content of file
 
-mv file_name /test - moves file to test directory regardless of if that directory is created or not
+mv file_name /test - moves file to test directory regardless of if that directory has already been created or not
 
 find - use find command to find file/directory in current directory NOTE: must use exact file/directory name
 
